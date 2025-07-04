@@ -175,6 +175,11 @@ U slučaju rada s više pridruženih članova, jedni drugima će vidjeti napisan
 Globalni rad i pregledavanje bilješki omogućava lakše snalaženje u velikom broju bilješki povezanih na podatke od kojih su mnogi hijerarhijski povezani.
 ![Alt text](/slike/desktop_biljeske.png?raw=true "Globalni rad s bilješkama")
 
+## Odabir korisnika za kojeg se trenutno radi
+Svaki korisnik može biti udružen s više drugih korisnika i u bilo kojem trenutku može odabrati za kojeg korisnika će raditi.
+Nakon odabira novog korisnika, slijedi zamjena konteksta koji prvo uključuje čišćenje svih podataka dosadašnjeg korisnika, a zatim učitavanje podataka novo odabranog korisnika.
+![Alt text](/slike/desktop_odabir_korisnika.png?raw=true "Odabir korisnika za kojeg se trenutno radi")
+
 
 ## Mobitel, uređivanje korisnikovog profila, općenita razina opisa radnih vještina
 ![Alt text](/slike/mobile_profil_opceniti_opis.png?raw=true "Mobitel, uređivanje korisnikovog profila, općenita razina opisa radnih vještina")
