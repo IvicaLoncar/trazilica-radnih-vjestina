@@ -133,57 +133,76 @@ U bilješkama se pohranjuje znanje, podaci i informacije o raznim objektima s ko
 
 S odabranim kandidatima moguće je razmjenjivati poruke koje mogu dovesti do novih poslovnih suradnji.
 
+# Responzivni dizajn
+
+Web aplikacija će biti podržana na uređajima ekrana različite veličine, trenutno za mobitel i desktop, u budućnosti će vjerojatno biti dodano i za tablete.
+
 # Slike
 
-Desktop uređivanje korisnikovog profila radnih vještina
+## Desktop, uređivanje korisnikovog profila radnih vještina
+Tri su stupca za opis radnih vještina, za općeniti opis (lijevo), srednje detaljni opis (sredina) i detaljni opis (desno)
 ![Alt text](/slike/desktop_uredjivanje_profila.png?raw=true "Desktop uređivanje korisnikovog profila radnih vještina")
 
-Desktop pregled vrsta profila koje korisnikovog može popuniti
+## Desktop, pregled vrsta profila koje korisnik može popuniti
+Korisnik može popuniti različite vrste profila, na slici se s lijeve strane vidi lista iz koje je moguće odabrati željenu vrstu profila
 ![Alt text](/slike/desktop_vrste_profila.png?raw=true "Desktop pregled vrsta profila koje korisnikovog može popuniti")
 
-Desktop uređivanje pridruženih članova i grupa aktivnosti
+## Desktop, uređivanje pridruženih članova i grupa aktivnosti
+U slučaju većih poduzeća ili udruživanja većeg broja ljudi, raditi će se s većim količinama podataka, zato će biti moguće grupirati aktivnosti.
+S lijeve strane slike nalazi se lista pridruženih članova koji mogu raditi na zajedničkim projektima, svaka osoba može biti povezana s više drugih osoba istovremeno, ali uvijek je samo jedna osoba glavna osoba i ona je jedini vlasnik tzv. dijeljenih podataka
+S desne strane slike nalaze se grupe koje mogu imati podgrupe (organiziranje na dvije razine) i moguće je dodjeljivati prava pristupa grupama i podgrupama i na taj način ograničiti vidljivost i mogućnost uređivanja aktivnosti pridruženim članovima
 ![Alt text](/slike/desktop_uredjivanje_clanova_i_grupa.png?raw=true "Desktop uređivanje pridruženih članova i grupa aktivnosti")
 
-Desktop rad sa aktivnostima, rezultatima, kandidatima i radnim vještinama
+## Desktop, rad sa aktivnostima, rezultatima, kandidatima i radnim vještinama
+Ovo je glavni ekran tražilice radnih vještina preko kojeg je moguće pratiti mnoge indikatore vezane uz odabir kandidata.
+Slični ekrani biti će razvijeni i za neke druge vrste aktivnosti kao što su oglasi, projekti, rezervacije događaja, ...
+Krajnje lijevi stupac predstavlja filtrirane aktivnosti na kojima osoba želi raditi s kratkim opisom i indikatorima o porukama i bilješkama.
+Do njega s lijeve strane je stupac rezultata odabrane aktivnosti. Svaka aktivnost može imati više rezultat i svaki rezultat je zabilježen u bazi podataka, rezultat se sastoji od više predloženih kandidata.
+U sredini se nalazi stupac s općenitim podacima nekih kandidata odabrane aktivnosti i odabranog rezultata.
+Ono što se može primjetiti je anonimizacija naziva kandidata.
+S desne strane nalazi se kolona u kojoj se nalaze podaci o radnim vještinama kandidata s indikatorima iz kojih se vide pojedinačni i agregatni statusi radnih vještina, te indikatori poruka koje se izmjenjuju i bilješki koje su napisane.
+S obzirom da ovaj ekran treba prikazati jako velike količine podataka o različitim kanididatima, korištenje indikatora omogućava tzv. strateški pregled nad kompliciranom situacijom.
 ![Alt text](/slike/desktop_pregled_aktivnosti_i_rezultata.png?raw=true "Desktop rad sa aktivnostima, rezultatima, kandidatima i radnim vještinama")
 
-Bilješke radnih vještina
+## Bilješke radnih vještina
+Ideja je povezivati bilješke na razne podatke u web aplikaciji slično kao što se sticky notes može lijepiti na raznim mjestima.
+Jedno od mjesta za koje će se pisati bilješke su i radne vještine kandidata.
+Bilješke mogu biti i privatne u kojem slučaju će ih vidjeti samo osoba koja ih je napisala.
+U slučaju rada s više pridruženih članova, jedni drugima će vidjeti napisane bilješke prema pravima pristupa postavljenim na grupe i podrgrupe aktivnosti.
 ![Alt text](/slike/biljeske_radnih_vjestina.png?raw=true "Bilješke radnih vještina")
 
-Globalni rad s bilješkama
+## Globalni rad s bilješkama
+Globalni rad i pregledavanje bilješki omogućava lakše snalaženje u velikom broju bilješki povezanih na podatke od kojih su mnogi hijerarhijski povezani.
 ![Alt text](/slike/desktop_biljeske.png?raw=true "Globalni rad s bilješkama")
 
 
-Mobitel, uređivanje korisnikovog profila, općenita razina opisa radnih vještina
+## Mobitel, uređivanje korisnikovog profila, općenita razina opisa radnih vještina
 ![Alt text](/slike/mobile_profil_opceniti_opis.png?raw=true "Mobitel, uređivanje korisnikovog profila, općenita razina opisa radnih vještina")
 
-Mobitel, uređivanje korisnikovog profila, srednja razina detaljnosti opisa radnih vještina
+## Mobitel, uređivanje korisnikovog profila, srednja razina detaljnosti opisa radnih vještina
 ![Alt text](/slike/mobile_profil_malo_detaljniji_opis.png?raw=true "Mobitel, uređivanje korisnikovog profila, srednja razina detaljnosti opisa radnih vještina")
 
-Mobitel, uređivanje korisnikovog profila, najdetaljniji opis radnih vještina
+## Mobitel, uređivanje korisnikovog profila, najdetaljniji opis radnih vještina
 ![Alt text](/slike/mobile_profil_najdetaljniji_opis.png?raw=true "Mobitel, uređivanje korisnikovog profila, najdetaljniji opis radnih vještina")
 
-Mobitel, udruživanje korisnika 
+## Mobitel, udruživanje korisnika 
 ![Alt text](/slike/mobile_udruzivanje_s_korisnicima.png?raw=true "Mobitel, udruživanje korisnika")
 
-Mobitel, uređivanje grupa i prava pristupa
+## Mobitel, uređivanje grupa i prava pristupa
 ![Alt text](/slike/mobile_uredjivanje_grupa_i_prava_pristupa.png?raw=true "Mobitel, uređivanje grupa i prava pristupa")
 
-Mobitel, privatne grupe aktivnosti
+## Mobitel, privatne grupe aktivnosti
 ![Alt text](/slike/mobile_privatne_grupe.png?raw=true "Mobitel, privatne grupe aktivnosti")
 
-Mobitel, popis aktivnosti
+## Mobitel, popis aktivnosti
 ![Alt text](/slike/mobile_popis_aktivnosti.png?raw=true "Mobitel, popis aktivnosti")
 
-Mobitel, lista rezultata odabrane aktivnosti
+## Mobitel, lista rezultata odabrane aktivnosti
 ![Alt text](/slike/mobile_rezultati_odabrane_aktivnosti.png?raw=true "Mobitel, lista rezulatata odabrane aktivnosti")
 
-Mobitel, podaci kandidata
+## Mobitel, podaci kandidata
 ![Alt text](/slike/mobile_podaci_kandidata.png?raw=true "Mobitel, podaci kandidata")
 
-Mobitel, radne vještine kandidata
+## Mobitel, radne vještine kandidata
 ![Alt text](/slike/mobile_radne_vjestine_kandidata.png?raw=true "Mobitel, radne vještine kandidata")
-
-
-
 
