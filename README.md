@@ -17,11 +17,11 @@ Tražilica se može koristiti za sljedeće scenarije ponudi i potražnji:
 2. zapošljavanje osoba s invaliditetom - poslovi koji se nude osobama s invaliditetom
 3. usavršavanje - projekti/zadaci koji će nekome biti usavršavanje u karijeri
 4. prekvalifikacija - promjena karijere
-5. događanja - tečajevi, predavanja, seminari, priredbe, sajmovi, ...
+5. događanje - tečajevi, predavanja, seminari, priredbe, sajmovi, ...
 5. volontiranje - ponuda i potražnja 
 6. pomoć u radu - npr. branje jabuka
 7. osnovne škole - npr. suveniri
-8. sredneje škole - npr. proizvodi iz njihovih radionica ili povezivanje obrtničkih škola s gospodarstvom
+8. srednje škole - npr. proizvodi iz njihovih radionica ili povezivanje obrtničkih škola s gospodarstvom
 9. visoko školstvo - npr. povezivanje s gospodarstvom
 10. hobiji - povezivanje ljudi oko hobija
 11. zabava - povezivanje oko raznih oblika zabave, npr. restorani, zabavni parkovi
@@ -29,7 +29,7 @@ Tražilica se može koristiti za sljedeće scenarije ponudi i potražnji:
 13. turizam - nije ponuda poslova za turizam, nego turistička ponuda u određenom mjestu uključujući i lokalne prehrambene proizvode
 14. ponuda - općenita ponuda koja ne pripada u neku od gornjih kategorija, npr. usluga miješanja boje u prodavaonici boja
 
-Tražilicu radnih vještina je jezgra većeg projekta koji se može nazvati web aplikacijom i ima dodatne mogućnosti.
+Tražilica radnih vještina je jezgra većeg projekta koji se može nazvati web aplikacijom i ima dodatne mogućnosti.
 
 # Prva mogućnost web aplikacije je udruživanje korisnika pod zajednički cilj i dijeljenje podataka. 
 
@@ -39,13 +39,14 @@ Također, svaka osoba će moći biti istovremeno udružena s više različitih d
 U scenarijima udruživanja uvijek će jedna osoba biti glavna osoba i ona će biti vlasnik podataka.
 Primjer gdje se fizička osoba udružuje s drugom osobom mogao bi biti gradnja kuće kod koje fizička osoba angažira arhitekta kao pridruženog člana da u njegovo ime dogovara poslove oko gradnje kuće, a vlasnik podataka ostaje fizička osoba.
 Kod malih poduzeća koja nemaju specijalizirane zaposlenike za zapošljavanje drugih, malo poduzeće može pozvati nezavisnog headhuntera da kao pridruženi član u ime malog poduzeća provodi postupak odabira novih zaposlenika.
-Ponekad će malo poduzeće imati potrebu pozvati nezavisnog procjenjitelja projekta kojeg može pozvati da kao pridruženi član radi procenu u ime malog poduzetnika.
+Ponekad će malo poduzeće imati potrebu pozvati nezavisnog procjenjitelja projekta kojeg može pozvati da kao pridruženi član radi procjenu u ime malog poduzetnika.
 Pozivanje drugih osoba na udruživanje provodi se slanjem pozivnica.
 
 ## Organiziranje dijeljenih podataka u grupe i podgrupe
 
-U slučajevima većih firmi koji bi raditi s većim količinama podataka, pojavljuje se potreba za organizacijom svih tih podataka radi lakšeg snalaženja.
-Web aplikacija podržava grupiranje na dvije razine, grupe i podgrupe, a unutar podgrupa nalaziti će se dijeljeni podaci.
+U slučajevima većih poduzeća koje rade s većim količinama podataka, pojavljuje se potreba za organizacijom svih tih podataka radi lakšeg snalaženja.
+Web aplikacija podržava grupiranje na dvije razine: grupe i podgrupe. 
+Unutar podgrupa nalaziti će se podaci o aktivnostima.
 
 ## Prava pristupa grupama i podgrupama
 
@@ -53,15 +54,15 @@ Web aplikacija podržava grupiranje na dvije razine, grupe i podgrupe, a unutar 
 Kod ove web aplikacije pravo pristupanja dodjeljuje se na razini grupa i podgrupa.
 Glavni korisnik i osobe označene kao administratori imaju neograničeni pristup svim grupama i podgrupama.
 Dvije su razine pristupa, prva je čitaj i piši, druga je samo čitaj (kod ove razine nije moguće ažurirati podatke u bazi podataka).
-Nove grupe mogu dodavati samo glavni korisnik ili administratori.
-Nove podgrupe mogu dodavati samo pridruženi članovi koji su administratori grupa.
+Nove grupe mogu dodavati samo glavni korisnik ili pridruženi članovi koji su administratori.
+Osim glavnog korisnika i administratora, nove podgrupe mogu dodavati još i pridruženi članovi koji su administratori grupe u koju se dodaje podgrupa.
 
 ## Privatni podaci vs. dijeljeni podaci
 
 Svaki korisnik ima svoje privatne podatke koje vidi samo on i nitko više.
 Glavni korisnik može u isto vrijeme imati privatne podatke i biti vlasnik dijeljenih podataka.
 Isključivo kao vlasnik dijeljenih podataka, glavni korisnik moći će prebacivati podatke između svojih dijeljenih i privatnih podataka u oba smjera.
-U slučaju kad korisnik nije vlasnik podataka on neće moći prebaciti dijeljene podatke među svoje privatne podatke.
+U slučaju kad korisnik nije vlasnik podataka on neće moći prebaciti dijeljene podatke u svoje privatne podatke.
 S druge strane, kad korisnik nije vlasnik podataka on će moći klonirati svoje privatne podatke i prebaciti ih u dijeljene podatke nekog drugog glavnog korisnika.
 
 # Druga mogućnost web aplikacije je popunjavanje profila radnih vještina
@@ -128,6 +129,61 @@ U bilo kojem slučaju pisanje bilješki o različitim objektima u web aplikaciji
 U bilješkama se pohranjuje znanje, podaci i informacije o raznim objektima s kojima se radi.
 
 
-# Poruke kandidatima
+# Slanje poruka prema kandidatima
 
 S odabranim kandidatima moguće je razmjenjivati poruke koje mogu dovesti do novih poslovnih suradnji.
+
+# Slike
+
+Desktop uređivanje korisnikovog profila radnih vještina
+![Alt text](/slike/desktop_uredjivanje_profila.png?raw=true "Desktop uređivanje korisnikovog profila radnih vještina")
+
+Desktop pregled vrsta profila koje korisnikovog može popuniti
+![Alt text](/slike/desktop_vrste_profila.png?raw=true "Desktop pregled vrsta profila koje korisnikovog može popuniti")
+
+Desktop uređivanje pridruženih članova i grupa aktivnosti
+![Alt text](/slike/desktop_uredjivanje_clanova_i_grupa.png?raw=true "Desktop uređivanje pridruženih članova i grupa aktivnosti")
+
+Desktop rad sa aktivnostima, rezultatima, kandidatima i radnim vještinama
+![Alt text](/slike/desktop_pregled_aktivnosti_i_rezultata.png?raw=true "Desktop rad sa aktivnostima, rezultatima, kandidatima i radnim vještinama")
+
+Bilješke radnih vještina
+![Alt text](/slike/biljeske_radnih_vjestina.png?raw=true "Bilješke radnih vještina")
+
+Globalni rad s bilješkama
+![Alt text](/slike/desktop_biljeske.png?raw=true "Globalni rad s bilješkama")
+
+
+Mobitel, uređivanje korisnikovog profila, općenita razina opisa radnih vještina
+![Alt text](/slike/mobile_profil_opceniti_opis.png?raw=true "Mobitel, uređivanje korisnikovog profila, općenita razina opisa radnih vještina")
+
+Mobitel, uređivanje korisnikovog profila, srednja razina detaljnosti opisa radnih vještina
+![Alt text](/slike/mobile_profil_malo_detaljniji_opis.png?raw=true "Mobitel, uređivanje korisnikovog profila, srednja razina detaljnosti opisa radnih vještina")
+
+Mobitel, uređivanje korisnikovog profila, najdetaljniji opis radnih vještina
+![Alt text](/slike/mobile_profil_najdetaljniji_opis.png?raw=true "Mobitel, uređivanje korisnikovog profila, najdetaljniji opis radnih vještina")
+
+Mobitel, udruživanje korisnika 
+![Alt text](/slike/mobile_udruzivanje_s_korisnicima.png?raw=true "Mobitel, udruživanje korisnika")
+
+Mobitel, uređivanje grupa i prava pristupa
+![Alt text](/slike/mobile_uredjivanje_grupa_i_prava_pristupa.png?raw=true "Mobitel, uređivanje grupa i prava pristupa")
+
+Mobitel, privatne grupe aktivnosti
+![Alt text](/slike/mobile_privatne_grupe.png?raw=true "Mobitel, privatne grupe aktivnosti")
+
+Mobitel, popis aktivnosti
+![Alt text](/slike/mobile_popis_aktivnosti.png?raw=true "Mobitel, popis aktivnosti")
+
+Mobitel, lista rezultata odabrane aktivnosti
+![Alt text](/slike/mobile_rezultati_odabrane_aktivnosti.png?raw=true "Mobitel, lista rezulatata odabrane aktivnosti")
+
+Mobitel, podaci kandidata
+![Alt text](/slike/mobile_podaci_kandidata.png?raw=true "Mobitel, podaci kandidata")
+
+Mobitel, radne vještine kandidata
+![Alt text](/slike/mobile_radne_vjestine_kandidata.png?raw=true "Mobitel, radne vještine kandidata")
+
+
+
+
