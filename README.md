@@ -15,7 +15,7 @@ Preduvjet za tražilicu radnih vještina je da fizičke ili pravne osobe upišu 
 Kao što se vidi na sljedećoj slici, tražilica radnih vještina služi za povezivanje fizičkih ili pravnih osoba koje s jedne strane nude svoje vještine, znanja i sposobnosti s drugim fizičkim ili pravnim osobama koje imaju potrebu za korištenjem tuđih vještina, znanja i sposobnosti.
 
 ![Alt text](/slike/trazilica-pocetna.png?raw=true "Tražilica povezuje")
-Icons by [Icon8](https://icons8.com)
+Icons by [Icons8](https://icons8.com)
 
 Tražilica se može koristiti za sljedeće scenarije ponudi i potražnji:
 1. **zapošljavanje** - na puno ili polovično radno vrijeme, kratkotrajne zadatke, projekte
@@ -35,14 +35,14 @@ Tražilica se može koristiti za sljedeće scenarije ponudi i potražnji:
 15. **ponuda** - općenita ponuda koja ne pripada u neku od gornjih kategorija, npr. usluga miješanja boje u prodavaonici boja
 
 ![Alt text](/slike/trazilica-vrste-profila.png?raw=true "Tražilica podržava sljedeće vrste profila")
-Icons by [Icon8](https://icons8.com)
+Icons by [Icons8](https://icons8.com)
 
 Tražilica radnih vještina je jezgra web aplikacije. Postupak korištenja tražilice je jednostavan i sastoji se od tri koraka kao što je prikazano na sljedećoj slici. 
 
 Na slici se vide primjeri korištenja tražilice od pojedinačnih osoba i od udruženih osoba.
 
 ![Alt text](/slike/trazilica-workflow.png?raw=true "Koraci korištenja tražilice")
-Icons by [Icon8](https://icons8.com)
+Icons by [Icons8](https://icons8.com)
 
 # Prva mogućnost web aplikacije je udruživanje korisnika pod zajednički cilj i dijeljenje podataka. 
 
@@ -55,12 +55,12 @@ Svaka osoba može istovremeno biti udružena na više različitih mjesta s razli
 Na sljedećoj slici je primjer jedne osobe udružene istovremeno s više drugih osoba.
 
 ![Alt text](/slike/osoba-je-pridruzena-na-vise-mjesta.png?raw=true "Osoba je istovremeno udružena s više drugih osoba")
-Icons by [Icon8](https://icons8.com)
+Icons by [Icons8](https://icons8.com)
 
 Na sljedećoj slici je primjer udruživanja više osoba oko istog cilja.
 
 ![Alt text](/slike/vise-osoba-pridruzeno-na-isto-mjesto.png?raw=true "Osoba je istovremeno udružena s više drugih osoba")
-Icons by [Icon8](https://icons8.com)
+Icons by [Icons8](https://icons8.com)
 
 Poduzeće je primjer udruživanja više osoba koje rade na istom cilju. No, tu ne mora biti kraj, već poduzeće može u ostvarivanje svojih ciljeva uključiti i vanjske suradnike. 
 
@@ -79,7 +79,7 @@ Unutar grupa nalaziti će se podgrupe, a unutar podgrupa nalaziti će se aktivno
 Na sljedećoj slici je prikazano kako se koriste grupe i podgrupe kad je udruženo više osoba, što su privatne grupe, što su dijeljene grupe i što su prava pristupa na dijeljene grupe. 
 
 ![Alt text](/slike/grupe-i-podgrupe-aktivnosti.png?raw=true "Primjer popunjavanja profila osobe")
-Icons by [Icon8](https://icons8.com)
+Icons by [Icons8](https://icons8.com)
 
 ## Prava pristupa grupama i podgrupama
 
@@ -115,7 +115,7 @@ Profile radnih vještina mogu popunjavati glavni korisnik ili pridružen član k
 Na sljedećoj slici se vidi kako osoba ima popunjene dvije vrste profila, prvi profil se odnosi na zapošljavanje (informatiku), a drugi profil na pomoć u radu (poljoprivreda). Prema tim profilima mogu ih pronaći druge osobe koje bi htjele s njima dogovoriti suradnju.
 
 ![Alt text](/slike/primjer-popunjavanja-profila.png?raw=true "Primjer popunjavanja profila osobe")
-Icons by [Icon8](https://icons8.com)
+Icons by [Icons8](https://icons8.com)
 
 # Vrste aktivnosti
 
@@ -133,7 +133,7 @@ Po potrebi se mogu dodavati i neke druge vrste aktivnosti.
 Na slici je primjer korištenja tražilice što uključuje korištenje  grupa, podgrupa, aktivnosti, rezultata, kandidata, vještina, bilješki, poruka. Također je prikazan i primjer anonimizacije koja se provodi na način da se šifriraju ime, prezime i id fizičkih osoba AES algoritmom.
 
 ![Alt text](/slike/trazilica-primjer-podataka.png?raw=true "Primjer popunjavanja profila osobe")
-Icons by [Icon8](https://icons8.com)
+Icons by [Icons8](https://icons8.com)
 
 ## Anonimizacija
 
