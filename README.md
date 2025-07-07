@@ -1,6 +1,7 @@
 # Tražilica radnih vještina
 
 ![Alt text](/slike/trazilica-pocetna.png?raw=true "Tražilica povezuje")
+Icons by [Icon8](https://icons8.com)
 
 Zapošljavanje preko oglasa za posao često je sporo i traje tjednima, ponekad i mjesecima.
 
