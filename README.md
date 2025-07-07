@@ -1,5 +1,7 @@
 # Tražilica radnih vještina
 
+![Alt text](/slike/trazilica-pocetna.png?raw=true "Tražilica povezuje")
+
 Zapošljavanje preko oglasa za posao često je sporo i traje tjednima, ponekad i mjesecima.
 
 Tržište se brzo mijenja i ako se na vrijeme ne reagira, ukazana prilika može biti propuštena.
